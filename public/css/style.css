@@ -1,0 +1,197 @@
+body {
+    background:  url(https://www.techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_1.jpg) no-repeat center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+.bg-image {
+    background-image: url(/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #FF8900;    
+}
+
+.nav-item:hover .nav-link {
+    color: #fff !important;
+    transition: all 0.5s;
+    background-color: #385166;
+}
+
+ul > .active {
+    border-bottom: 2px solid #FF8900;
+    color: #fff !important;
+}
+
+.active > a {
+    color: #fff !important;
+}
+
+.nav-link {
+    height: 65px;
+    color: rgba(255,255,255,0.55) !important;
+}
+
+.nav-item {
+    height: 67px;
+}
+
+.bg-dark {
+    background-color: #2f4456 !important;
+    opacity: .9;
+}
+
+.bg-orange {
+    background-color: #FF8900;
+}
+.bg-grey {
+    background-color: rgba(255,255,255,0.8);
+    
+}
+
+.text-orange {
+	color: #FF8900;
+}
+
+.border-orange {
+    border: 1px solid #FF8900 ;
+}
+
+.text-grey {
+    color: rgba(255,255,255,0.55) !important;
+
+}
+
+.navbar-light .navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.carousel-caption {
+    bottom: 50%;
+    right: auto;
+}
+
+.card-body {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+}
+
+.card-header, .card-footer {
+    background-color: #fff;
+}
+.card-header {
+    font-weight: 800;
+    color: #2f4456;
+}
+
+a:hover h5 {
+    color: #FF8900;
+}
+
+.card-header a{
+    text-decoration: none;
+}
+
+.card-title {
+    color: #2f4456;
+}
+
+.scrollTop {
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+}
+.d-none {
+    display: inline-block !important;
+}
+
+.carousel-button-width {
+    width: 10%;
+}
+
+.fw-800 {
+	font-weight: 800;
+}
+
+.img-object-fit {
+    object-fit: cover;
+}
+
+.card-img-preview-height {
+	height: 200px;
+}
+
+.card-carousel-width {
+	width: 1080px;
+}
+/* CUSTOM MARGIN */
+.mt-6 {
+    margin-top: 4.188rem !important;
+}
+
+		.card-resp-height {
+	    height: 200px; 	    
+    }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .d-none {
+        display: none !important;
+    }
+
+    .carousel-button-width {
+        width: 30%;
+    }
+	
+	.fs-resp {
+	font-size: 12px;
+}
+
+	.card-resp-height {
+	    height: 100px; 	    
+    }
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    .d-none {
+        display: none !important;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+	.fs-resp {
+	font-size: 15px;
+}
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
